@@ -1,0 +1,19 @@
+{
+    "name": "textflow/textflow",
+    "description": "A simple package for sending SMS",
+    "authors": [
+        {
+            "name": "TextFlow",
+            "email": "admin@textflow.me"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TextFlow\\": "src"
+        },
+        "files": [
+
+        ]
+    }
+}
