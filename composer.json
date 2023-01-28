@@ -1,5 +1,5 @@
 {
-    "name": "textflow/textflow",
+    "name": "textflow/sms-api",
     "description": "A simple package for sending SMS",
     "authors": [
         {
