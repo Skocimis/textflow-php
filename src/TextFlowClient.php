@@ -2,7 +2,33 @@
 
 namespace TextFlow;
 
-class TextFlow
+/**
+ * Information about the delivered message
+ * @property string $to 
+ * @property string $content
+ * @property string $country_code
+ * @property float $price
+ * @property integer $timestamp
+ */
+class SendMessageData
+{
+}
+
+/**
+ * Result status of the TextFlow Send SMS API call
+ * @property boolean $ok True if the message was successfully sent, false otherwise. 
+ * @property integer $status Status code
+ * @property string $message Status message
+ * @property SendMessageData $data If the message was sent successfully, additional data about the message is returned
+ */
+class SendMessageResult
+{
+}
+
+/**
+ * TextFlowClient object is used to send messages.
+ */
+class TextFlowClient
 {
   private string $api_key;
   function __construct(string $api_key)
@@ -13,6 +39,14 @@ class TextFlow
   {
     $this->api_key = $key;
   }
+
+  /**
+   * Method that is used to send an SMS. 
+   * @param string recipient Recipient phone number, formatted like `+381617581234`
+   * @param string text Message body
+   * @return SendMessageResult Result status of the TextFlow Send SMS API call
+   * 
+   */
   function send_sms(string $recipient, string $text)
   {
     if (strlen($recipient) == 0) {
