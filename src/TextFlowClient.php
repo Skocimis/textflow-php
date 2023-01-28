@@ -1,7 +1,5 @@
 <?php
 
-namespace TextFlow;
-
 /**
  * Information about the delivered message
  * @property string $to 
