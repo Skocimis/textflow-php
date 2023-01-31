@@ -1,5 +1,8 @@
 # Textflow PHP client
 
+[![Packagist](https://img.shields.io/packagist/v/textflow/sms-api.svg)](https://packagist.org/packages/textflow/sms-api)
+[![Packagist](https://img.shields.io/packagist/dt/textflow/sms-api.svg)](https://packagist.org/packages/textflow/sms-api)
+
 ## Installation
 `composer require textflow/sms-api`
 
