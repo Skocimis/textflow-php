@@ -6,6 +6,9 @@
 ## Installation
 `composer require textflow/sms-api`
 
+## Documentation
+Here you will see just a sample usage of sending an SMS, for more instructions (including methods for user verification) checkout our [official PHP documentation](https://docs.textflow.me/php). 
+
 ## Sample Usage
 
 To send an SMS, you have to create an API key using the [Textflow dashboard](https://textflow.me/api). When you register an account, you automatically get an API key with one free SMS which you can send anywhere.
