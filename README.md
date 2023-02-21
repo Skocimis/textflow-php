@@ -3,11 +3,11 @@
 [![Packagist](https://img.shields.io/packagist/v/textflow/sms-api.svg)](https://packagist.org/packages/textflow/sms-api)
 [![Packagist](https://img.shields.io/packagist/dt/textflow/sms-api.svg)](https://packagist.org/packages/textflow/sms-api)
 
-## Installation
-`composer require textflow/sms-api`
-
 ## Documentation
 Here you will see just a sample usage of sending an SMS, for more instructions (including methods for user verification) check out our [official PHP documentation](https://docs.textflow.me/php). 
+
+## Installation
+`composer require textflow/sms-api`
 
 ## Sample Usage
 
