@@ -1,7 +1,7 @@
 {
     "name": "textflow/sms-api",
     "description": "PHP library that helps you send SMS using TextFlow API",
-    "version": "v1.5.0",
+    "version": "v1.6.0",
     "keywords": [
         "sms-api",
         "api-client",
