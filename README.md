@@ -7,7 +7,7 @@
 `composer require textflow/sms-api`
 
 ## Documentation
-Here you will see just a sample usage of sending an SMS, for more instructions (including methods for user verification) checkout our [official PHP documentation](https://docs.textflow.me/php). 
+Here you will see just a sample usage of sending an SMS, for more instructions (including methods for user verification) check out our [official PHP documentation](https://docs.textflow.me/php). 
 
 ## Sample Usage
 
