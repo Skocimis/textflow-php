@@ -1,7 +1,6 @@
 {
     "name": "textflow/sms-api",
     "description": "PHP library that helps you send SMS using TextFlow API",
-    "version": "v1.6.2",
     "keywords": [
         "sms-api",
         "api-client",
@@ -22,7 +21,9 @@
     },
     "readme": "README.md",
     "license": "MIT",
-    "require": {},
+    "require": {
+        "php": "^7.4|^8"
+    },
     "autoload": {
         "psr-4": {
             "\\": "src"
