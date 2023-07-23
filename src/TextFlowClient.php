@@ -1,5 +1,7 @@
 <?php
 
+namespace TextFlow\SMSApi;
+
 /**
  * Information about the delivered message
  * @property string $to 
